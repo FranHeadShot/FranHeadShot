@@ -1,0 +1,129 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{width: 50px;
+border-radius: 50%;}
+
+h1{font-size:80px;
+    background-color:rgb(233, 175, 14);
+    font-family: 'Splash', cursive;
+    text-align: center;
+    background-image:url(../imagenes/giphy.gif); 
+    
+}
+.eslogan{ 
+    background-color:#141414;
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+    color: #000;
+}
+body{
+    background-color: #062e0c;
+    background-image: url(../imagenes/giphy.gif)
+}
+.galeria{
+    display: flex;
+    flex-wrap:nowrap;
+    overflow: auto;
+    
+}
+.galeria img{
+    flex: 1 0 auto;
+    margin: 0 15px;
+    width: 500px;
+    height: 500px;
+}
+footer{
+    background-color: #616161;
+    padding: 50px;
+}
+h3{
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    background-color: rgb(15, 61, 26);
+    font-family: 'Rajdhani', sans-serif;
+}
+.menu{
+    text-align: center;
+    width: 90%;
+    height: 70px; 
+    margin: auto;
+    background-color: #0a3023;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Wallpoet', cursive;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav ul a{
+    color: rgb(233, 218, 12);
+    text-decoration: none;
+    padding: 1rem
+}
+nav li a:hover{
+    background-color: #000;
+    color: #062e0c;
+    border-radius: 20px;
+}
+.LogoDeContacto{
+    width: 10rem;
+}
+.redes{
+    background-color: rgba(12, 87, 34, 0.255);
+    display: flex;
+    flex-direction: column;
+    padding: 10rem;
+    margin: 50px;
+    text-align: center;
+}
+.SeccionHombreFotos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.over2{
+    font-size: larger;
+    color: #31f30a;
+}
+.Over1{
+    font-size: large;
+    color: #31f30a;
+}
+.Overwhite1{
+    font-size: large;
+    color: #31f30a;
+}
+.BuzoBlanco{
+    font-size: large;
+    color: #31f30a;
+
+}
+.SeccionMujerFotos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Mover1{
+    font-size: large;
+    color: #31f30a;
+}
+.Mover2{
+    font-size: large;
+    color: #31f30a;
+}
+.Mover3{
+    font-size: large;
+    color: #31f30a;
+}
